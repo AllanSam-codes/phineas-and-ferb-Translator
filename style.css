@@ -66,9 +66,9 @@ textarea {
     height: 10vh;
     font-family: 'Gluten', cursive;
     border-color: var(--white);
-    background-color: var(--primary-color);
+    background-color: var(--Hex);
     font-size: large;
-    color: var(--Hex);
+    color: var(--primary-color);
     text-align: center;
 }
 
