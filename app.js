@@ -10,14 +10,13 @@ function errorHandler(error) {
     alert("something wrong with server! try after some time")
 }
 
-function getTranslatorURL(input) {
+function getTranslatedURL(input) {
     return serverURL + "?" + "text=" + input
 }
 
 function clickHandler() {
     var inputText = txtInput.value;
-
-    fetch(getTranslatorURL(inputText))
+    fetch(getTranslatedURL(inputText))
         .then(response => response.json())
         .then(json => {
             var translatedText = json.contents.translated;
