@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+ :root {
+    --primary-color: #ffa500;
+    --Green: #6af70c;
+    --white: #f9edd8;
+    /*--width-break: 600px;*/
+}
+
+.nav {
+    background-color: var(--primary);
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0mm;
+}
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem auto 0.3rem auto;
+    padding: 1rem;
+}
+
+.heading {
+    background-color: var(--primary-color);
+}
+
+.header-txt {
+    text-align: center;
+    padding: 1rem;
+    font-size: xx-large;
+    margin: 0px auto;
+    color: var(--Green);
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
+.container {
+    width: 800px;
+    height: 18vh;
+    margin: 0px auto;
+}
+
+.btn {
+    width: 15rem;
+    margin: 0px 225px;
+    padding: 7px;
+    height: 7vh;
+    font-family: 'Gluten', cursive;
+    border-color: var(--white);
+    background-color: var(--primary-color);
+    font-size: large;
+    color: var(--Green);
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+    padding: 1rem;
+    width: 550px;
+    margin: 0px 50px;
+    height: 2rem;
+    font-family: 'Gluten', cursive;
+    color: var(--Green);
+}
+
+.output {
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    padding: 1rem;
+    border-color: rgb(65, 61, 61)
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: medium;
+    color: var(--Green);
+    background-color: var(--primary-color);
+}
+
+.footer-txt {
+    text-align: center;
+    padding-top: 0rem;
+}
+
+body {
+    margin: 0;
+}
